@@ -6,6 +6,23 @@
 
 # NRF24L01 IoT Mesh Network with Node-Limit Addressing
 
+## Network Topology
+
+```mermaid
+graph TD
+
+Gateway --> Parent1
+Gateway --> Parent2
+Gateway --> Parent3
+
+Parent1 --> Child6
+Parent1 --> Child7
+
+Child6 --> SubChild13
+Child6 --> SubChild14
+```
+
+
 An IoT wireless sensor network using **NRF24L01 modules** built on top of:
 
 - RF24
