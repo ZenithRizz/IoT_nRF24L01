@@ -13,7 +13,7 @@
 - Node-limit addressing strategy
 - Multi-hop routing (SubChild → Child → Parent → Gateway)
 - Real-time sensor state transmission
-- Scalable architecture for larger IoT deployments
+- Scalable and cheap architecture
 
 
 ## Network Topology
